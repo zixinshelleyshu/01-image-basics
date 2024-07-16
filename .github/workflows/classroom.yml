@@ -22,6 +22,7 @@ jobs:
         max-score: '100'
         setup-command: 'pip install pytest'
     - name: Autograding Reporter
+      # See more here: https://docs.github.com/en/education/manage-coursework-with-github-classroom/learn-with-github-classroom/view-autograding-results 
       uses: classroom-resources/autograding-grading-reporter@v1 
       env:
         PYTHON-TEST_RESULTS: "${{steps.python-test.outputs.result}}"
