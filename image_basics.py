@@ -1,7 +1,7 @@
 import numpy as np
 import SimpleITK as sitk
 
-
+# change something here
 def load_image(img_path, is_label_img):
     """
     LOAD_IMAGE:
